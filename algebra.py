@@ -32,6 +32,10 @@ def juntar_xyz(u, v):
         z.append(v[2])
     return x, y, z
 
+def transformacion(a, b, c):
+    t = [a, b, c]
+    return t
+
 def verificar_transformacion(u, v):
     verf = False
     suma_uv = []
